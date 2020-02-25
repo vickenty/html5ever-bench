@@ -1,0 +1,12 @@
+[package]
+name = "html5ever-bench"
+version = "0.1.0"
+authors = ["Vickenty Fesunov <kent@setattr.net>"]
+edition = "2018"
+
+[profile.release]
+debug=true
+
+[dependencies]
+html5ever={ path="../html5ever/html5ever" }
+markup5ever_rcdom={ path="../html5ever/rcdom" }
